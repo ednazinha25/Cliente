@@ -25,6 +25,7 @@ urlpatterns = [
     path('excluir/<int:id>/', views.excluir_cliente, name='excluir_cliente'),
     path('login/', views.login_usuario, name='login_usuario'),
     path('novo-usuario/', views.novo_usuario, name='novo_usuario'),
+    path('sair/', views.sair, name='sair'),
     path('', views.novo_cliente, name='novo_cliente'),
     
 ]
